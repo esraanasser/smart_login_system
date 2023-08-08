@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="home">
+        <div class="container h-100 d-flex justify-content-center align-items-center">
+            <div class="row w-100 px-2">
+                <div class="bg-color col-12 py-5 px-5">
+                    <div class="item text-center ">
+                        <h1 class="text-info">smart login system</h1>
+                        <div class="form-group my-5">
+                            <form action="" method="post">
+                                <input type="email" placeholder="Enter your email" id="login-email"
+                                    class="form-control my-2 " autocomplete="off">
+                                <input type="password" placeholder="Enter your password" id="login-password"
+                                    class="form-control my-2 ">
+                            </form>
+                        </div>
+                        <div class="msgs text-center">
+                            <p class="text-danger d-none" id="fillMsg">fill the inputs first please....</p>
+                            <p class="text-danger d-none" id="wrongMsg">your email or password is incorrect </p>
+                        </div>
+                        <a class="form-control bg-transparent mb-3 btn btn-info login" onclick="Login()"
+                            id="loginBtn">Login</a>
+                        <p>Don't have an acount? <a href="signup.html" class="signup"> &nbsp; Sign Up </a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <script src="js/jquery.js"></script>
+  <script src="js/poper.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>

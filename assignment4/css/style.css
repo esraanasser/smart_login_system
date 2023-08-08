@@ -1,0 +1,105 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-image: url(../img/b41a8ac7ca6700ebb21be446683d96c3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px !important;
+}
+
+.navbar .container {
+    max-width: 1140px !important;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+p {
+    font-weight: 500;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+input,
+button {
+    background-color: transparent !important;
+}
+
+input::placeholder {
+    color: #aaa !important;
+}
+.bg-color{
+    background-color: white !important;
+}
+.col-12,
+.navbar {
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+ 
+a {
+    transition: all 0.3s !important;
+}
+
+.login {
+    color: #17a2b8;
+}
+
+.login:hover {
+    background-color: #17a2b8 !important;
+    border-color: #17a2b8 !important;
+    color: #fff !important;
+}
+
+.signup {
+    color: springgreen;
+}
+
+.signup:hover {
+    color: #17a2b8 !important;
+    background-color: transparent !important;
+    text-decoration: none !important;
+}
+
+.navbar button:hover {
+    background-color: #28a745 !important;
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width: 576px) {
+    h1 {
+        font-size: 25px;
+    }
+}
